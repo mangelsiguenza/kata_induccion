@@ -1,0 +1,29 @@
+<br>
+<h3>Kata Inducción</h3>
+<br>
+<div>
+  <div class="input-container">
+    <label >Input:</label>
+    <input type="text" ng-model="team" style="border-radius: 5px; width: 250px">
+    <button style="border-radius: 8px;" ng-click="groupSelection(team)">Get team</button>
+    <label class="kata-example" >Example:[[1009, 2011], [1017, 2011]]</label>
+  </div>
+
+  <div ng-show="selectedPeople" style=" padding: 20px 0 20px 20px;">
+    <table>
+      <tr>
+        <th colspan="2">TEAM REPRESENTATIVES</th>
+      </tr>
+      <tr>
+        <td width="50" style="text-align: center">#</td>
+        <td >Candidate</td>
+      </tr>
+      <tr ng-repeat="item in selectedPeople">
+        <td style="text-align: center">{{$index+1}}</td>
+        <td >{{ item }}</td>
+      </tr>
+    </table>
+  </div>
+
+  <br><a href="#/" class="kataFont"> <= Home</a>
+</div>

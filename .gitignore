@@ -1,0 +1,13 @@
+﻿###################
+# compiled source #
+###################
+
+# temp #
+client/app/bower_components
+client/node_modules
+server/node_modules
+server/package-lock.json
+client/package-lock.json
+server/npm-debug.log
+*.xml
+server/package-lock.json

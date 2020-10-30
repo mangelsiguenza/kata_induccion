@@ -1,0 +1,33 @@
+{
+  "name": "Groups-Kata-Client",
+  "version": "0.0.1",
+  "description": "Groups Kata - Client",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:j0n4s/kata_mines.git"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": ">=1.0.1",
+    "grunt-concurrent": ">=2.3.0",
+    "grunt-contrib-clean": ">=1.0.0",
+    "grunt-contrib-connect": ">=1.0.1",
+    "grunt-contrib-jshint": ">=1.0.0",
+    "grunt-karma": ">=0.12.2",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.0",
+    "karma-coverage": ">=0.5.5",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": ">=1.0.0",
+    "matchdep": ">=1.0.1",
+    "serve-static": ">=1.10.2"
+  },
+  "engines": {
+    "node": ">=8.2.0"
+  }
+}
